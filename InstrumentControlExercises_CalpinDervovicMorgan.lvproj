@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,27 +11,29 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Globals" Type="Folder">
+			<Item Name="He3_Tlogger_Global 1.vi" Type="VI" URL="../He3_Tlogger_Global 1.vi"/>
+			<Item Name="I-AC-global.vi" Type="VI" URL="../I-AC-global.vi"/>
+			<Item Name="resistance-global.vi" Type="VI" URL="../resistance-global.vi"/>
+			<Item Name="Stop_B_Global.vi" Type="VI" URL="../Stop_B_Global.vi"/>
+			<Item Name="temp-global.vi" Type="VI" URL="../temp-global.vi"/>
+			<Item Name="field-global.vi" Type="VI" URL="../field-global.vi"/>
+		</Item>
 		<Item Name="BtoI.vi" Type="VI" URL="../BtoI.vi"/>
 		<Item Name="CheckCurrentLimits.vi" Type="VI" URL="../CheckCurrentLimits.vi"/>
 		<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
 		<Item Name="CurrentSweepExample.vi" Type="VI" URL="../CurrentSweepExample.vi"/>
 		<Item Name="DataOut.vi" Type="VI" URL="../DataOut.vi"/>
-		<Item Name="field-global.vi" Type="VI" URL="../field-global.vi"/>
 		<Item Name="FrontPanel.vi" Type="VI" URL="../FrontPanel.vi"/>
-		<Item Name="He3_Tlogger_Global 1.vi" Type="VI" URL="../He3_Tlogger_Global 1.vi"/>
-		<Item Name="I-AC-global.vi" Type="VI" URL="../I-AC-global.vi"/>
 		<Item Name="InitDevices.vi" Type="VI" URL="../InitDevices.vi"/>
 		<Item Name="IntegrationTime-global.vi" Type="VI" URL="../IntegrationTime-global.vi"/>
 		<Item Name="ItoB.vi" Type="VI" URL="../ItoB.vi"/>
 		<Item Name="JustReadCurrent.vi" Type="VI" URL="../JustReadCurrent.vi"/>
 		<Item Name="LockInResistanceMeasurement.vi" Type="VI" URL="../LockInResistanceMeasurement.vi"/>
-		<Item Name="resistance-global.vi" Type="VI" URL="../resistance-global.vi"/>
 		<Item Name="SimpleCurrentRead.vi" Type="VI" URL="../SimpleCurrentRead.vi"/>
 		<Item Name="StanfordVoltage.vi" Type="VI" URL="../StanfordVoltage.vi"/>
 		<Item Name="stop-machine-global.vi" Type="VI" URL="../stop-machine-global.vi"/>
-		<Item Name="Stop_B_Global.vi" Type="VI" URL="../Stop_B_Global.vi"/>
 		<Item Name="StopTempSweep.vi" Type="VI" URL="../StopTempSweep.vi"/>
-		<Item Name="temp-global.vi" Type="VI" URL="../temp-global.vi"/>
 		<Item Name="TemperatureSweep.vi" Type="VI" URL="../TemperatureSweep.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
